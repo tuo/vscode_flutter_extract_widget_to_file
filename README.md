@@ -130,3 +130,7 @@ class MyTile extends StatelessWidget {
 
 
 Inspired by [Flutter Extract Widget and Create Part](https://github.com/alper-mf/vscode_flutter_extract_widget_create_part) and [VSCode Advanced New File](https://github.com/patbenatar/vscode-advanced-new-file/tree/master?tab=readme-ov-file#vscode-advanced-new-file).
+
+
+
+[publisher](https://marketplace.visualstudio.com/manage/publishers/tuohuang)
