@@ -1,4 +1,4 @@
-# Flutter Extract Widget to File
+# VSCode Extension: Flutter Extract Widget to File
 
 As a Flutter developer, it's very common to refactor widgets into new files. The extension allows you to extract a selection of code into a stateless widget class, handling the import and file creation. This allows for smooth extraction without the need for a mouse.
 
