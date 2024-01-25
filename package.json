@@ -2,7 +2,7 @@
   "name": "flutter-extract-widget-to-file",
   "displayName": "Flutter Extract Widget to File",
   "description": "Extracts a Flutter widget and creates a file to use it.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "publisher": "tuohuang",
   "icon": "images/icon_flat.png",

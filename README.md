@@ -2,7 +2,7 @@
 
 As a Flutter developer, it's very common to refactor widgets into new files. The extension allows you to extract a selection of code into a stateless widget class, handling the import and file creation. This allows for smooth extraction without the need for a mouse.
 
-Here is a simple Widget extraction:
+Here is a simple Widget extraction when press "CMD/CTRL+ALT+E":
 
 ![alt text](https://media.giphy.com/media/N42B2VfGatYQOQLeiF/source.gif)
 
@@ -14,14 +14,13 @@ Here is another Widget extraction with properties specified:
 
 ## Usage
 
-1. Open the Dart file you want to work with in your Flutter project.
-2. Select the Widget you want to convert into a new StatelessWidget.
-3. Right-click the selected text and choose "Extract Flutter Widget to File" or click "Cmd+alt+E".
-4. In the prompt that opens, enter the path relative to "lib", like "components/tiles/MyWidget", the "MyWidget" will be camelcase, the extension will create directory at "lib/components/tiles" and a file "my_widget.dart" under it
-5. if you like, you could specfic the properties after ";" to create fields with newly created file
-6. In current file, the "import $packageName/components/tiles/my_widget.dart" would be append to imports statements
-7. the selecvtion of wiget will replaced with MyWidget() with properties
-
+1. Open the Dart file you wish to modify within your Flutter project.
+2. Choose the Widget you intend to transform into a new StatelessWidget.
+3. Right-click on the selected text and opt for "Extract Flutter Widget to File," or use the shortcut "Cmd+Alt+E."
+4. In the prompt that appears, provide a path relative to "lib," such as "components/tiles/MyWidget." The "MyWidget" will be camelcased, and the extension will generate a directory at "lib/components/tiles" along with a file named "my_widget.dart" within it.
+5. Optionally, you may specify properties after the ";" to create fields within the newly created file.
+6. Within the current file, the statement "import $packageName/components/tiles/my_widget.dart" will be appended to the import statements.
+7. The selected widget will be replaced with "MyWidget()" along with its specified properties.
 
 ## Example
 
